@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.12"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:padding="@dimen/_2sdp"
+            android:textSize="@dimen/_12ssp"
+            android:text="First Name:" />
+
+        <EditText
+            android:id="@+id/edtFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_weight="0.6"
+            android:background="@drawable/rect_shape"
+            android:hint="Enter First Name"
+            android:maxLines="1"
+            android:padding="@dimen/_3sdp"
+            android:singleLine="true"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.12"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:textSize="@dimen/_12ssp"
+            android:padding="@dimen/_2sdp"
+            android:text="Last Name:" />
+
+        <EditText
+            android:id="@+id/edtLastName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:background="@drawable/rect_shape"
+            android:hint="Enter Last Name"
+            android:maxLines="1"
+            android:padding="@dimen/_3sdp"
+            android:singleLine="true"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.12"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:textSize="@dimen/_12ssp"
+            android:padding="@dimen/_2sdp"
+            android:text="Mobile No:" />
+
+        <EditText
+            android:id="@+id/edtMobile"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:background="@drawable/rect_shape"
+            android:hint="Enter Mobile Number"
+            android:inputType="number"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:padding="@dimen/_3sdp"
+            android:singleLine="true"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.12"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:textSize="@dimen/_12ssp"
+            android:padding="@dimen/_2sdp"
+            android:text="Date of Birth:" />
+
+        <EditText
+            android:id="@+id/edtBirthDate"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:background="@drawable/rect_shape"
+            android:editable="false"
+            android:focusable="true"
+            android:hint="Enter Birth Date"
+            android:maxLines="1"
+            android:padding="@dimen/_3sdp"
+            android:singleLine="true"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:elevation="@dimen/_5sdp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:padding="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:text="Update"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+</LinearLayout>
